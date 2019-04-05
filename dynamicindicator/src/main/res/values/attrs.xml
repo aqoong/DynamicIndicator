@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DynamicIndicator">
+        <attr name="maxSize" format="integer"/>
+        <attr name="android:entries"/>
+        <attr name="mode" format="flags">
+            <flag name="dot" value="10001"/>
+            <flag name="line" value="10002"/>
+        </attr>
+
+        <attr name="iconOff" format="reference"/>
+        <attr name="iconOn" format="reference"/>
+        <attr name="colorOff" format="color"/>      <!-- line, dot -->
+        <attr name="colorOn" format="color"/>       <!-- line, dot -->
+
+        <attr name="itemWidth" format="dimension"/>
+        <attr name="strTraceEnable" format="boolean"/>
+    </declare-styleable>
+</resources>

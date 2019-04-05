@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#3B3D4B"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.aqoong.lib.dynamicindicator.DynamicIndicator
+            android:id="@+id/dynamic_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:maxSize="5"
+            app:itemWidth="70dp"
+            app:strTraceEnable="false"
+            app:mode="dot"
+            app:colorOff="@color/indicator_off"
+            app:colorOn="@color/indicator_on">
+        </com.aqoong.lib.dynamicindicator.DynamicIndicator>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_prev"
+                android:text="prev"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn_next"
+                android:text="next"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/check_str_trace"
+            android:buttonTint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:text="String Trace Enable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/check_mode"
+            android:buttonTint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:text="Indicator Line mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/edit_maxsize"
+            android:hint="Indicator MaxSize"
+            android:textColorHint="@color/indicator_off"
+            android:backgroundTint="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:inputType="number"
+            android:id="@+id/edit_itemWidth"
+            android:hint="Indicator Item Width"
+            android:textColorHint="@color/indicator_off"
+            android:backgroundTint="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edit_spot_str"
+            android:hint="Selected Text"
+            android:textColorHint="@color/indicator_off"
+            android:backgroundTint="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:text="reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="indicator_off">#767676</color>
+    <color name="indicator_on">#C1374A</color>
+    <string name="app_name">DynamicIndicator</string>
+    <declare-styleable name="DynamicIndicator">
+        <attr format="integer" name="maxSize"/>
+        <attr name="android:entries"/>
+        <attr format="flags" name="mode">
+            <flag name="dot" value="10001"/>
+            <flag name="line" value="10002"/>
+        </attr>
+
+        <attr format="reference" name="iconOff"/>
+        <attr format="reference" name="iconOn"/>
+        <attr format="color" name="colorOff"/>      <!-- line, dot -->
+        <attr format="color" name="colorOn"/>       <!-- line, dot -->
+
+        <attr format="dimension" name="itemWidth"/>
+        <attr format="boolean" name="strTraceEnable"/>
+    </declare-styleable>
+</resources>
