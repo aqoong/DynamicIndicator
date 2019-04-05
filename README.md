@@ -50,12 +50,14 @@ using .xml file
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-		    //connect
+	//connect
         dynamicIndicator = findViewById(R.id.dynamic_indicator);
-		    //Select ver.1
+	//Select ver.1
         dynamicIndicator.selectDot(position);
-		    //Select ver.2
-		    dynamicIndicator.selectDot(position, "Custom Text Label");
+	//Select ver.2
+	dynamicIndicator.selectDot(position, "Custom Text Label");
+	
+	
         ///////////////////////////////////////////////
         //if you want change using java source
         dynamicIndicator.setItemWidth({int})
@@ -82,11 +84,11 @@ using .xml file
       }
     }
   ```
-  - app build.gradle [![release](https://img.shields.io/badge/version-1.0.3-yellow.svg)](https://semver.org)
+  - app build.gradle [![](https://jitpack.io/v/aqoong/DynamicIndicator.svg)](https://jitpack.io/#aqoong/DynamicIndicator)
   ```
     dependencies {
-      ...
+	...
       implementation 'com.github.aqoong:DynamicIndicator:x.y.z'
-      ...
+	...
     }
   ```
