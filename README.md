@@ -82,7 +82,7 @@ using .xml file
       }
     }
   ```
-  - app build.gradle [![release](https://img.shields.io/badge/version-1.0.2-yellow.svg)](https://semver.org)
+  - app build.gradle [![release](https://img.shields.io/badge/version-1.0.3-yellow.svg)](https://semver.org)
   ```
     dependencies {
       ...
