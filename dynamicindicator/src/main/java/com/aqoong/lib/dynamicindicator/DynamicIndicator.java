@@ -88,7 +88,7 @@ public class DynamicIndicator extends GridLayout
         }
 
         indicatorList = new ArrayList<>();
-        for(int i = 0 ; i < maxSize ; i++){
+        for(int i = 0 ; i < textList.length ; i++){
 
             IndicatorItem item = new IndicatorItem(context);
 
@@ -96,7 +96,8 @@ public class DynamicIndicator extends GridLayout
                 item.vLineLeft.setVisibility(INVISIBLE);
             }
 
-            if(i == maxSize-1){
+            if(i == textList.length
+                    -1){
                 item.vLineRight.setVisibility(INVISIBLE);
             }
 
@@ -257,7 +258,7 @@ public class DynamicIndicator extends GridLayout
 
 
     public DynamicIndicator setMaxSize(int size){ this.maxSize = size; return this;}
-    public int getMaxSize(){ return maxSize; }
+    public int getMaxSize(){ return maxSize = textList.length; }
     public DynamicIndicator setTextList(String...texts){
         this.textList = texts;
         refreshIndicator();

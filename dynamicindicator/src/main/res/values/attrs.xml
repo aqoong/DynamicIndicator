@@ -8,8 +8,8 @@
             <flag name="line" value="10002"/>
         </attr>
 
-        <attr name="iconOff" format="reference"/>
-        <attr name="iconOn" format="reference"/>
+        <attr name="iconOff" format="reference"/>   <!-- have a higher priority than color -->
+        <attr name="iconOn" format="reference"/>    <!-- have a higher priority than color -->
         <attr name="colorOff" format="color"/>      <!-- line, dot -->
         <attr name="colorOn" format="color"/>       <!-- line, dot -->
 
