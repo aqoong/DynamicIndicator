@@ -1,7 +1,7 @@
 # DynamicIndicator
 
+![Alt Text](https://github.com/{user}/{repo}/raw/master/path/to/sample.gif)
 
-![Alt Text](https://github.com/aqoong/DynamicIndicator/readme_images/sample.gif)
 
 [Custom View]
 using .xml file
