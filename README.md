@@ -5,7 +5,7 @@
 [Custom View]
 using .xml file
 
-# How to Use
+## How to Use
 - xml
   - [attrs.xml]
   ```
@@ -68,3 +68,25 @@ using .xml file
         dynamicIndicator.refreshIndicator();
     }
     ```
+## Add DynamicIndicator Lib
+
+  - project build.gradle
+  ```
+    allprojects {
+      repositories {
+        google()
+        jcenter()
+	...
+        maven { url "https://jitpack.io"}
+	...
+      }
+    }
+  ```
+  - app build.gradle [![release](https://img.shields.io/badge/version-1.0.2-yellow.svg)](https://semver.org)
+  ```
+    dependencies {
+      ...
+      implementation 'com.github.aqoong:DynamicIndicator:x.y.z'
+      ...
+    }
+  ```
