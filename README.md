@@ -54,8 +54,8 @@ using .xml file
         dynamicIndicator = findViewById(R.id.dynamic_indicator);
 	//Select ver.1
         dynamicIndicator.selectDot(position);
-	//Select ver.2
-	dynamicIndicator.selectDot(position, "Custom Text Label");
+        //Select ver.2
+        dynamicIndicator.selectDot(position, "Custom Text Label");
 	
 	
         ///////////////////////////////////////////////
@@ -78,17 +78,17 @@ using .xml file
       repositories {
         google()
         jcenter()
-	...
+        ...
         maven { url "https://jitpack.io"}
-	...
+        ...
       }
     }
   ```
-  - app build.gradle [![](https://jitpack.io/v/aqoong/DynamicIndicator.svg)](https://jitpack.io/#aqoong/DynamicIndicator)
+  - app build.gradle [![release](https://jitpack.io/v/aqoong/DynamicIndicator.svg)](https://jitpack.io/#aqoong/DynamicIndicator)
   ```
     dependencies {
-	...
+      ...
       implementation 'com.github.aqoong:DynamicIndicator:x.y.z'
-	...
+      ...
     }
   ```
