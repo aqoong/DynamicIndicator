@@ -3,7 +3,8 @@
 ![Alt Text](https://github.com/aqoong/DynamicIndicator/raw/master/readme_images/sample.gif)
 
 [Custom View]
-using .xml file
+This is Custom View for Android.
+
 
 ## How to Use
 - xml
