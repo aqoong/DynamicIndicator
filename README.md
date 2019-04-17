@@ -85,7 +85,7 @@ This is Custom View for Android.
       }
     }
   ```
-  - app build.gradle [![release](https://jitpack.io/v/aqoong/DynamicIndicator.svg)](https://jitpack.io/#aqoong/DynamicIndicator)
+  - app build.gradle  [![release](https://jitpack.io/v/aqoong/DynamicIndicator.svg)](https://jitpack.io/#aqoong/DynamicIndicator)
   ```
     dependencies {
       ...
