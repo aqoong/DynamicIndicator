@@ -3,7 +3,7 @@
 ![Alt Text](https://github.com/aqoong/DynamicIndicator/raw/master/readme_images/sample.gif)
 
 [Custom View]
-This is Custom View for Android.
+This is free Custom View for Android.
 
 
 ## How to Use
