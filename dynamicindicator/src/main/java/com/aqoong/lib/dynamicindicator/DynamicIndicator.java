@@ -2,6 +2,7 @@ package com.aqoong.lib.dynamicindicator;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.graphics.drawable.Drawable;
 import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
@@ -68,6 +69,8 @@ public class DynamicIndicator extends GridLayout
             strTrace = typedArray.getBoolean(R.styleable.DynamicIndicator_strTraceEnable, false);
 
             itemWidth = typedArray.getDimension(R.styleable.DynamicIndicator_itemWidth, 30);
+
+
         }finally
         {
             typedArray.recycle();

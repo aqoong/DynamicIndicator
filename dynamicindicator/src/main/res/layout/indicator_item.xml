@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_gravity="center"
-    android:background="#3B3D4B"
     android:id="@+id/parent"
     android:gravity="center"
     android:layout_width="40dp"
